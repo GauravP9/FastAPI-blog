@@ -1,10 +1,10 @@
-# FastAPI Pub
+# FastAPI BLOG
 
 A FastAPI-powered blog and user platform with authentication, profile management, password reset flows, and HTML-based post browsing.
 
 ## Overview
 
-FastAPI Pub is a full-stack style FastAPI application that combines:
+FastAPI blog is a full-stack style FastAPI application that combines:
 
 - REST API endpoints for users and posts
 - JWT-based authentication
@@ -71,7 +71,7 @@ The app reads configuration from a `.env` file using `pydantic-settings`.
 Example:
 
 ```env
-DATABASE_URL=postgresql+asyncpg://username:password@localhost:5432/fastapi_pub
+DATABASE_URL=postgresql+asyncpg://username:password@localhost:5432/fastapi_blog
 SECRET_KEY=your-super-secret-key
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
@@ -98,8 +98,8 @@ Note: the code uses environment variables that are case-insensitive. You should 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/GauravP9/FastAPI-Pub.git
-cd FastAPI-Pub
+git clone https://github.com/GauravP9/FastAPI-blog.git
+cd FastAPI-blog
 ```
 
 2. Create a virtual environment:
